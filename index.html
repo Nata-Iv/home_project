@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <div class="header__top">
+        <div class="logo__image">
+          <a href="#" class="logo">
+            <img src="images/logo_digital_project.png" alt="">
+          </a>
+        </div>
+        <button class="burger-menu">
+          <span class="burger-menu__icon"></span>
+          <span class="burger-menu__icon"></span>
+          <span class="burger-menu__icon"></span>
+        </button>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="" class="menu__link page__active">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Gallery</a>
+            </li>
+            <li class=" menu__item">
+              <a href="" class="menu__link">Projects</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Certificates</a>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__content">
+        <div class="header__title-side">
+          <h1 class="header_title header_title-project">PROJECT</h1>
+          <h1 class="header_title header_title-home">HOME</h1>
+          <div class="slider__button swiper-wrapper">
+            <button class="button_left swiper-button-prev">
+              <img src="images/arrow-left.svg" alt="">
+            </button>
+            <button class="button_right swiper-button-next">
+              <img src="images/arrow-right.svg" alt="">
+            </button>
+          </div>
+          <div class="slider__num">
+            <p id="number-of-slide"></p>
+            <img src="images/line_header.svg" alt="">
+            <p id="swiper-total-slides"></p>
+          </div>
+        </div>
+        <div class="header__title-image">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <img class="swiper-slide" src="images/header_image.png" alt="">
+              <img class="swiper-slide" src="images/header_image.png" alt="">
+            </div>
+          </div>
+          <div class="header_btn">
+            <a href="#" class="header_btn-text">look at</a>
+            <a href="#"><img src="images/arrow-right.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about__company">
+      <div class="container">
+        <div class="about__company-wrapper">
+          <div class="about__company-left">
+            <img class="about__company-img1" src="images/about_company_img1.png" alt="">
+            <img class="about__company-img2" src="images/about_company_img2.png" alt="">
+            <img class="about__company-img3" src="images/about_company_img3.png" alt="">
+          </div>
+          <div class="about__company-right">
+            <h1 class="about__company-title titles">About company</h1>
+            <p class="about__company-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <div class="about__company_btn">
+              <a href="#" class="about__company_btn-text ">Read about</a>
+              <a href="#"><img src="images/arrow-right.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tasks">
+      <div class="container">
+        <h1 class="tasks-title titles">The main tasks</h1>
+        <div class="tasks__wrapper">
+          <div class="tasks__left ">
+            <p class="tasks__num">1</p>
+            <p class="tasks__text">
+              Creating comfortable conditions and improving the quality of customer service
+            </p>
+          </div>
+          <div class="tasks__right">
+            <p class="tasks__num">2</p>
+            <p class="tasks__text">
+              Constantly improve the quality of services provided by training staff, purchasing new equipment and
+              increased advertising on the market
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="container">
+        <div class="projects__wrapper">
+          <h1 class="projects__title titles">Our projects</h1>
+
+          <div class="projects_first-line">
+            <img class="projects-item" src="images/projects_img1.png" alt="">
+            <img class="projects-item" src="images/projects_img2.png" alt="">
+          </div>
+          <div class="projects_second-line">
+            <img class="projects-item" src="images/projects_img3.png" alt="">
+            <img class="projects-item" src="images/projects_img4.png" alt="">
+            <img class="projects-item" src="images/projects_img5.png" alt="">
+          </div>
+          <div class="projects_btn-container">
+            <div class="about__company_btn projects_btn">
+              <a href="#" class="about__company_btn-text ">Read about</a>
+              <a href="#"><img src="images/projects_btn.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="connect">
+      <div class="container">
+        <div class="connect__wrapper">
+          <h1 class="connect__title titles">Connect to us</h1>
+          <div class="connect__container">
+            <form class="form">
+              <input type="name" placeholder="Name">
+              <input type="phone" placeholder="Number of phone">
+              <input type="email" placeholder="E-mail">
+              <input type="text" placeholder="Interesting product">
+              <textarea name="textarea" rows="7">Message</textarea>
+            </form>
+            <div class="connect_img">
+              <img src="images/connect_img.png" alt="">
+            </div>
+          </div>
+          <p class="connect__text">
+            By submitting an application you agree with politics confidentiality
+          </p>
+          <div class="about__company_btn projects_btn">
+            <a href="#" class="about__company_btn-text ">Send</a>
+            <a href="#"><img src="images/projects_btn.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__data">
+        <a href="#">
+          <img class="logo_footer" src="images/logo_footer.png" alt="">
+        </a>
+        <div class="footer__info">
+          <h3 class="footer_header">Information</h3>
+          <p>The main</p>
+          <p>Gallery</p>
+          <p>Projects</p>
+          <p>Certificates</p>
+          <p>Contacts</p>
+        </div>
+        <div class="footer__contacts">
+          <h3 class="footer_header">Contacts</h3>
+          <div class="footer_map-box">
+            <img src="images/footer_map.svg" alt="">
+            <p>100000, Republic of Kazakhstan,<br>
+              Karaganda, st. Television 10</p>
+          </div>
+          <div class="footer_phone-box">
+            <img src="images/footer_phone.svg" alt="">
+            <p>+38 (000) 000 00 00</p>
+          </div>
+          <div class="footer_mail-box">
+            <img src="images/footer_mail.svg" alt="">
+            <p>mail@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer__social">
+          <h3 class="footer_header">Social media</h3>
+          <div class="footer_social-box">
+            <a href="#"><img class="social-img" src="images/footer_facebook.svg" alt=""></a>
+            <a href="#"><img class="social-img" src="images/footer_twitter.svg" alt=""></a>
+            <a href="#"><img class="social-img" src="images/footer_in.svg" alt=""></a>
+            <a href="#"><img class="social-img" src="images/footer_p.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__bottom-text">
+        © 2019 Digital Project. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
